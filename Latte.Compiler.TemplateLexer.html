@@ -1,0 +1,667 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Latte\Compiler\TemplateLexer | ApiGen API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.html">ApiGen</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Analyzer.html">Analyzer</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Index.html">Index</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Info.html">Info</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Renderer.html">Renderer</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Scheduler.html">Scheduler</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Task.html">Task</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Latte.html">Latte</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Latte.Compiler.html">Compiler</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Latte.Compiler.Block.html">
+							Block
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.Escaper.html">
+							Escaper
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.Node.html">
+							Node
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.Position.html">
+							Position
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.PrintContext.html">
+							PrintContext
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.Tag.html">
+							Tag
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.TagParser.html">
+							TagParser
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.TagParserData.html">
+							TagParserData
+						</a>
+					</li>
+					<li class="active">
+						<a href="Latte.Compiler.TemplateLexer.html">
+							TemplateLexer
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.TemplateParser.html">
+							TemplateParser
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.Token.html">
+							Token
+						</a>
+					</li>
+					<li>
+						<a href="Latte.Compiler.TokenStream.html">
+							TokenStream
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Latte.Compiler.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Latte.Compiler.TemplateLexer.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Latte.html">Latte</a>\<a href="namespace-Latte.Compiler.html">Compiler</a>\<a href="Latte.Compiler.TemplateLexer.html">TemplateLexer</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+			<tr><th><code>final</code></th></tr>
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct()</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="tokenize" id="_tokenize">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>tokenize(<span>string <var>$template</var></span>): <a href="Generator.html"><span title="Generator">Generator</span></a>&lt;<a href="Latte.Compiler.Token.html"><span title="Latte\Compiler\Token">Token</span></a>&gt;</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_tokenize">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setState" id="_setState">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setState(<span>string <var>$state</var></span>, <span>...<var>$args</var></span>): void</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setState">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pushState" id="_pushState">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pushState(<span>string <var>$state</var></span>, <span>...<var>$args</var></span>): void</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pushState">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="popState" id="_popState">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>popState(): void</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_popState">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getState" id="_getState">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getState(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getState">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setSyntax" id="_setSyntax">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setSyntax(<span>?string <var>$type</var></span>, <span>?string <var>$endTag</var> = <span class="php-kw">null</span></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		<p>Changes tag delimiters.</p>
+
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Changes tag delimiters.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setSyntax">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="popSyntax" id="_popSyntax">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>popSyntax(): void</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_popSyntax">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		<table class="table" id="constants">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Constants</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="StatePlain" id="StatePlain">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StatePlain = <span class="php-str">'Plain'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StatePlain">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateLatteTag" id="StateLatteTag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateLatteTag = <span class="php-str">'LatteTag'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateLatteTag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateLatteComment" id="StateLatteComment">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateLatteComment = <span class="php-str">'LatteComment'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateLatteComment">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlText" id="StateHtmlText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlText = <span class="php-str">'HtmlText'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlTag" id="StateHtmlTag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlTag = <span class="php-str">'HtmlTag'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlTag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlQuotedValue" id="StateHtmlQuotedValue">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlQuotedValue = <span class="php-str">'HtmlQuotedValue'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlQuotedValue">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlQuotedNAttrValue" id="StateHtmlQuotedNAttrValue">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlQuotedNAttrValue = <span class="php-str">'HtmlQuotedNAttrValue'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlQuotedNAttrValue">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlRawText" id="StateHtmlRawText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlRawText = <span class="php-str">'HtmlRawText'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlRawText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlComment" id="StateHtmlComment">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlComment = <span class="php-str">'HtmlComment'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlComment">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="StateHtmlBogus" id="StateHtmlBogus">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>StateHtmlBogus = <span class="php-str">'HtmlBogus'</span></code>
+
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#StateHtmlBogus">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="ReTagName" id="ReTagName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>ReTagName = <span class="php-str">'[a-zA-Z][a-zA-Z0-9:_.-]*'</span></code>
+
+	<div class="expandable-collapsedView">
+		<p>HTML tag name for Latte needs (actually is [a-zA-Z][^\s/&gt;]*)</p>
+
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>HTML tag name for Latte needs (actually is [a-zA-Z][^\s/&gt;]*)</p>
+</div>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#ReTagName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="NPrefix" id="NPrefix">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+				</code>
+			</td>
+
+<td class="table-cell table-shrink"></td>
+			<td class="table-cell">
+<code>NPrefix = <span class="php-str">'n:'</span></code>
+
+	<div class="expandable-collapsedView">
+		<p>special HTML attribute prefix</p>
+
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>special HTML attribute prefix</p>
+</div>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#NPrefix">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			ApiGen API documentation generated by <a href="https://github.com/ApiGen/ApiGen">ApiGen dev-master</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

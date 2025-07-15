@@ -1,0 +1,258 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class PHPStan\PhpDocParser\Parser\ConstExprParser | ApiGen API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.html">ApiGen</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Analyzer.html">Analyzer</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Index.html">Index</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Info.html">Info</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Renderer.html">Renderer</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Scheduler.html">Scheduler</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-ApiGen.Task.html">Task</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-PHPStan.html">PHPStan</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-PHPStan.PhpDocParser.html">PhpDocParser</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-PHPStan.PhpDocParser.Parser.html">Parser</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="PHPStan.PhpDocParser.Parser.ConstExprParser.html">
+							ConstExprParser
+						</a>
+					</li>
+					<li>
+						<a href="PHPStan.PhpDocParser.Parser.PhpDocParser.html">
+							PhpDocParser
+						</a>
+					</li>
+					<li>
+						<a href="PHPStan.PhpDocParser.Parser.TokenIterator.html">
+							TokenIterator
+						</a>
+					</li>
+					<li>
+						<a href="PHPStan.PhpDocParser.Parser.TypeParser.html">
+							TypeParser
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Exceptions</h3>
+			<ul>
+					<li>
+						<a href="PHPStan.PhpDocParser.Parser.ParserException.html">
+							ParserException
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-PHPStan.PhpDocParser.Parser.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="PHPStan.PhpDocParser.Parser.ConstExprParser.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-PHPStan.html">PHPStan</a>\<a href="namespace-PHPStan.PhpDocParser.html">PhpDocParser</a>\<a href="namespace-PHPStan.PhpDocParser.Parser.html">Parser</a>\<a href="PHPStan.PhpDocParser.Parser.ConstExprParser.html">ConstExprParser</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(
+	<span>bool <var>$unescapeStrings</var> = <span class="php-kw">false</span></span>,
+	<span>bool <var>$quoteAwareConstExprString</var> = <span class="php-kw">false</span></span>,
+	<span>array{lines?: bool, indexes?: bool} <var>$usedAttributes</var> = []</span>,
+)</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parse" id="_parse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parse(<span><a href="PHPStan.PhpDocParser.Parser.TokenIterator.html"><span title="PHPStan\PhpDocParser\Parser\TokenIterator">TokenIterator</span></a> <var>$tokens</var></span>, <span>bool <var>$trimStrings</var> = <span class="php-kw">false</span></span>): <a href="PHPStan.PhpDocParser.Ast.ConstExpr.ConstExprNode.html"><span title="PHPStan\PhpDocParser\Ast\ConstExpr\ConstExprNode">ConstExprNode</span></a></code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parseDoctrineString" id="_parseDoctrineString">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parseDoctrineString(<span>string <var>$text</var></span>, <span><a href="PHPStan.PhpDocParser.Parser.TokenIterator.html"><span title="PHPStan\PhpDocParser\Parser\TokenIterator">TokenIterator</span></a> <var>$tokens</var></span>): <a href="PHPStan.PhpDocParser.Ast.ConstExpr.DoctrineConstExprStringNode.html"><span title="PHPStan\PhpDocParser\Ast\ConstExpr\DoctrineConstExprStringNode">DoctrineConstExprStringNode</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		<p>This method is supposed to be called with TokenIterator after reading TOKEN_DOUBLE_QUOTED_STRING and shifting
+to the next token.</p>
+
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>This method is supposed to be called with TokenIterator after reading TOKEN_DOUBLE_QUOTED_STRING and shifting
+to the next token.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parseDoctrineString">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			ApiGen API documentation generated by <a href="https://github.com/ApiGen/ApiGen">ApiGen dev-master</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>
